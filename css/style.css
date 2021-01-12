@@ -1,0 +1,121 @@
+body {
+  background-color: gray;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.containerImg {
+  height: auto;
+}
+
+.containerImg img {
+  max-height: 45px;
+  -webkit-filter: blur(0.5);
+          filter: blur(0.5);
+  margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header {
+  height: 80px;
+  background-color: indigo;
+}
+
+.header-content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.header .left .menu-list {
+  color: white;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+.header .left .menu-list li {
+  display: inline-block;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header .left .menu-list li span {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .left .menu-list li span p {
+  text-transform: uppercase;
+}
+
+.header .left .menu-list li:hover {
+  background-color: brown;
+}
+
+.header .right {
+  height: 100%;
+}
+
+.header .right .menu-list {
+  color: white;
+  height: 100%;
+}
+
+.header .right .menu-list li {
+  display: inline-block;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header .right .menu-list li span {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .right .menu-list li span p {
+  text-transform: capitalize;
+}
+
+.header .right .menu-list li:hover {
+  background-color: brown;
+}
+/*# sourceMappingURL=style.css.map */

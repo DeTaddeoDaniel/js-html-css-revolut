@@ -99,6 +99,7 @@ ul {
   height: 100%;
   padding-left: 20px;
   padding-right: 20px;
+  position: relative;
 }
 
 .header .right .menu-list li span {
@@ -117,5 +118,34 @@ ul {
 
 .header .right .menu-list li:hover {
   background-color: brown;
+}
+
+.voce {
+  position: relative;
+}
+
+.sottomenu {
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 100px;
+  z-index: 1;
+  border: 1px solid black;
+  background-color: cadetblue;
+}
+
+.sottomenu ul {
+  width: 100%;
+}
+
+.sottomenu ulli {
+  padding: 14px 7px;
+  width: 100%;
+  display: block;
+}
+
+.voce:hover .sottomenu {
+  display: block;
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */
